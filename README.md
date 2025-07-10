@@ -2,20 +2,20 @@
 
 This is the front-end web app for **Kanova CRM**, a minimalist customer management system built for small service-based businesses.
 
-## 🔍 Features
+##  Features
 
-- 🧾 Contact & activity tracking
-- ✅ Task management
-- 📧 Email & notes support
+-  Contact & activity tracking
+-  Task management
+-  Email & notes support
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React + Vite
 - Tailwind CSS
 - Zustand (state management)
 - Axios (API integration)
 
-## 📦 Project Setup
+##  Project Setup
 
 ```bash
 npm install
