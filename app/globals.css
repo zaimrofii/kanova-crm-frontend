@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 :root {
-  --background: #ffffff;
+  --background: #f8fdff;
   --foreground: #171717;
+  --primary: #007b7b;
 }
 
 @theme inline {
@@ -22,5 +29,35 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* react-split-pane */
+.Resizer {
+  background: #ddd;
+  opacity: 1;
+  z-index: 1;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  transition: all 0.2s ease;
+}
+
+.Resizer.vertical {
+  width: 4px;
+  cursor: col-resize;
+}
+/* ______________ */
+/* button */
+.button {
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s;
 }

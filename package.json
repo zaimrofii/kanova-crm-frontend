@@ -9,19 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/runtime": "^7.27.6",
+    "@dnd-kit/core": "^6.3.1",
+    "@uiw/react-split": "^5.9.3",
+    "axios": "^1.10.0",
+    "framer-motion": "^10.12.16",
+    "lucide-react": "^0.516.0",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "react-draggable": "^4.4.6",
+    "react-split-pane": "^0.1.92",
+    "reactjs-popup": "^2.0.6",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
